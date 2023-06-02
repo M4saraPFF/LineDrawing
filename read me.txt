@@ -1,11 +1,10 @@
-各システムはカメラから映像を取得し、線画抽出(特徴量)を行い、
-ウィンドウに出力するものです。
-
-LineDrawingForCameraUseCPU.py/.exe
+【LineDrawingForCameraUseCPU.py/.exe】
+こちらは、カメラから映像を取得し、線画抽出(特徴量)を行いウィンドウ出力するものです。
 こちらはGPUを使わず、CPUのみで処理している物になります。
 そのため、動作が少し重いものとなっております。
 
-LineDrawingForCameraUseGPU.py
+【LineDrawingForCameraUseGPU.py】
+こちらも同様に、カメラから映像を取得し、線画抽出(特徴量)を行いウィンドウ出力するものです。
 こちらはGPUを使用することでCPUへの負荷を軽減したものになります。
 しかし、こちらを使用するのに
 ・NVIDIA製グラフィックボード
@@ -13,3 +12,8 @@ LineDrawingForCameraUseGPU.py
 が必要になります。
 また、使用しているライブラリの関係上exeファイルが使用出来ないため、
 Pyファイルを送付させていただきます。
+
+【FaceDetection.txt】
+こちらには学生時代に作成した
+顔認識システムにて、処理した映像へのURLが記入されています。
+また、概要欄の方に作成したonedriveのURLも記載しています。
